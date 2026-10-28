@@ -5,10 +5,10 @@
 
 
 // 显示在开始画面上的单元名称 · unit name shown on the start screen
-const UNIT_NAME = "中三 单元一";
+const UNIT_NAME = "3G3词语";
 
 // 每一局的时间，单位是秒 · seconds per run
-const SECONDS = 90;
+const SECONDS = 60;
 
 // 你的词语。word 是词语，def 是释义。
 // Your vocabulary. `word` is the word, `def` is its meaning.
@@ -19,16 +19,17 @@ const SECONDS = 90;
 //   3. 至少 8 个词语（最少 4 个才跑得起来），越多越好
 //
 const VOCAB = [
-  { word: "维护", def: "保持、保障，使不受破坏" },
-  { word: "策略", def: "为了达到某个目标而定下的计划或方法" },
-  { word: "催促", def: "叫人赶快行动，不要拖延" },
-  { word: "沉浸", def: "完全进入某种境界或思想活动中" },
-  { word: "渲染", def: "夸大地形容，使气氛更浓" },
-  { word: "斟酌", def: "反复考虑，仔细掂量是否合适" },
-  { word: "潜移默化", def: "在不知不觉中受到影响而发生变化" },
-  { word: "锲而不舍", def: "一直刻下去不放手，比喻有恒心、不放弃" },
-  { word: "南辕北辙", def: "行动和目的正好相反，永远到不了" },
-  { word: "举一反三", def: "从一件事类推，懂得其他许多事" },
+  { word: "震撼", def: "这场精彩的表演给现场观众带来了很大的~。" },
+  { word: "持之以恒", def: "只要我们~地努力，就一定能够不断进步。" },
+  { word: "楷模", def: "王老师认真负责，是我们学习的~。" },
+  { word: "孜孜不倦", def: "她~地学习，希望将来能够实现自己的梦想。" },
+  { word: "逆水行舟", def: "学习如同~，不进则退，我们不能因为取得一点成绩就停止努力。" },
+  { word: "淘汰", def: "如果运动员不能持续进步，就可能在比赛中被~。" },
+  { word: "郁闷", def: "他因为考试成绩不理想而感到十分~。" },
+  { word: "挑战", def: "这次演讲比赛对我来说是一个很大的~，但我决定勇敢面对。" },
+  { word: "绽放", def: "春天来了，公园里的花朵纷纷~，美丽极了。" },
+  { word: "无奈", def: "他想帮助朋友，却不知道该怎么办，只能~地站在一旁。" },
+  { word: "哽咽", def: "她~着讲述离别的故事，让在场的人都十分感动。" },
   // ↑ 照上面的格式往下加就行。别忘了行尾的逗号。
   // ↑ Add more in the same format. Don't forget the comma at the end of each line.
 ];
